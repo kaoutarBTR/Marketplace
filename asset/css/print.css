@@ -1,0 +1,22 @@
+@media print {
+  @page {
+	size: A4;
+	margin: 10mm;
+  }	
+  html, body {
+    width: 210mm;
+    height: 297mm;
+  }
+  
+  /* ... the rest of the rules ... */
+  
+}
+
+.main-sidebar, .main-header, .main-footer, .content-header {
+  	display:none;
+  }
+
+.right-side {
+  	margin: 0 !important;
+  	padding:0 !important;
+  }

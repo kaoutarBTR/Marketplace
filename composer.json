@@ -1,0 +1,6 @@
+{
+    "require": {
+        "prestashop/prestashop-webservice-lib": "dev-master",
+        "phpoffice/phpspreadsheet": "^1.29"
+    }
+}
